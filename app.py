@@ -30,7 +30,7 @@ def test_functions():
             'name': request_body["text"]
         }
 
-        ourmailsender = MailSender('info.eva.everis@gmail.com', 'sbjhvaqwgjcuvwsz', ('smtp.gmail.com', 587))
+        ourmailsender = MailSender('XXXXXXXXXX@gmail.com', 'XXXXXXXXXXXX', ('smtp.gmail.com', 587)) #see readme for more information
         ourmailsender.set_message(plaintext, asunto, sender)
         #ourmailsender.set_recipients([request_body["text"]])        
         ourmailsender.connect()
