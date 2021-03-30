@@ -8,13 +8,14 @@ from flask import Flask, request, jsonify
 app = Flask(__name__)
 @app.route("/sendmail", methods=["POST"])
 def test_functions():
-    plaintext = ""
-
-    asunto = "Confirmación hora"
-    sender = "info Eva"
 
     try:
         request_body = json.loads(request.data)
+        
+        plaintext = request_body["plaintext"]
+        asunto = request_body["asunto"]
+        sender = request_body["sender"]
+    
         print("REQ: "+str(request_body))
         result = {
                     "option": "EMAIL",
