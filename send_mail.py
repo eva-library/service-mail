@@ -27,14 +27,8 @@ class MailSender:
                "Username: {}, Password: {}".format(self.server_name, self.server_port, self.connected, self.username, self.password)
 
     def set_message(self, in_plaintext, in_subject="", in_from=None, in_htmltext=None):
-        nombre = "Daniel"
-        fecha = "20 de Marzo"
-        hora = "19:30"
-        especialidad = "radiología"
-        doctor = "Enzo Norambuena"
-        lugar = "Clínica Santa María"
-
-        in_htmltext = "<html><h3>Estimado "+nombre+" <p>Le recuerdo su hora vigente para "+fecha+" a las "+hora+" con "+especialidad+" Dr. "+doctor+" en "+lugar+"Para su comodidad, pulse el enlace para confirmar, cancelar o reagendar via WhatsApp: <a href='https://api.whatsapp.com/send?phone=+14155238886&text=Hola'>Mas informacion</a></p> Saludos cordiales.</html>"
+        
+        in_htmltext = "<html><h3>Estimado <p>Le recuerdo su hora vigente. Para su comodidad, pulse el enlace para confirmar, cancelar o reagendar via WhatsApp: <a href='https://api.whatsapp.com/send?phone=+14155238886&text=Hola'>Mas informacion</a></p> Saludos cordiales.</html>"
 
         if in_htmltext is not None:
             self.html_ready = True
