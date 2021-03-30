@@ -32,7 +32,7 @@ def test_functions():
 
         ourmailsender = MailSender('info.eva.everis@gmail.com', 'sbjhvaqwgjcuvwsz', ('smtp.gmail.com', 587))
         ourmailsender.set_message(plaintext, asunto, sender)
-        ourmailsender.set_recipients([request_body["text"]])        
+        #ourmailsender.set_recipients([request_body["text"]])        
         ourmailsender.connect()
         ourmailsender.send_all()
     except:
