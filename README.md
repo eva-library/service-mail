@@ -47,6 +47,7 @@ Where:
 ## Configuring SMTP mail
 •	Go to the https://myaccount.google.com/security
 •	Go to item "Seguridad"
+
 ![image](https://user-images.githubusercontent.com/68356488/113006532-d78f4e80-914b-11eb-9eea-a9b6e4e10ac8.png)
 
 
