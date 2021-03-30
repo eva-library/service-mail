@@ -51,18 +51,22 @@ Where:
 
 
 •	And open the two steps verify
+
 ![image](https://user-images.githubusercontent.com/68356488/113007416-951a4180-914c-11eb-989b-652d854f6709.png)
 
 
 •	Follow the steps wizard
+
 ![image](https://user-images.githubusercontent.com/68356488/113007592-ba0eb480-914c-11eb-9545-d6d4dacbfb7e.png)
 
 
 •	Add an app password
+
 ![image](https://user-images.githubusercontent.com/68356488/113008362-589b1580-914d-11eb-89b0-be106e1debf7.png)
 
 
 •	Take note of the new app password
+
 ![image](https://user-images.githubusercontent.com/68356488/113008491-75cfe400-914d-11eb-873d-138f20f115ff.png)
 
 #### Note: this email and app password must be added to the line 33 in app.py fileNote: this email and app password must be added to the line 33 in app.py file
