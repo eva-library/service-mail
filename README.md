@@ -71,3 +71,5 @@ Where:
 ![image](https://user-images.githubusercontent.com/68356488/113008491-75cfe400-914d-11eb-873d-138f20f115ff.png)
 
 #### Note: this email and app password must be added to the line 33 in app.py fileNote: this email and app password must be added to the line 33 in app.py file
+
+*Components are not supported
